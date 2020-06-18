@@ -1,0 +1,20 @@
+{
+  "name": "express-h2",
+  "version": "0.0.1",
+  "description": "express router using the native nodejs http2 protocol",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "router",
+    "node",
+    "nodejs",
+    "h2",
+    "http2",
+    "protocol"
+  ],
+  "author": "Kissema Eduardo Rafael",
+  "license": "ISC"
+}
