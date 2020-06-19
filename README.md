@@ -62,9 +62,6 @@ For more informations and `issues` you can see in the [oficial repository](https
 ## Configuration Options
 ```js
 const options = {}
-//using simple server
-http2.createServer(expressRoutes, options)
-//using secure server
 http2.createSecureServer(secureOptions, expressRoutes, options)
 ```
 
