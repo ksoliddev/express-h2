@@ -57,7 +57,7 @@ const secureOptions = {
 const server = http2.createSecureServer(secureOptions, expressRoutes)
 server.listen(3443)
 ```
-For more informations and `issues` you can see in the [oficial repository](https://github.com/ksoliddev/express-h2)
+For more informations and `issues` you can see in the [oficial repository](https://github.com/ksoliddev/express-h2) or [read this article with example project](https://medium.com/@kissema1/the-easy-way-to-use-http2-protocol-with-express-framework-dfae4f8e9689?source=friends_link&sk=b6986b8dac15016b684b08b618567249)
 
 ## Configuration Options
 ```js
