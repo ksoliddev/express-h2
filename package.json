@@ -2,8 +2,13 @@
   "name": "express-h2",
   "version": "0.0.1",
   "description": "express router using the native nodejs http2 protocol",
-  "main": "index.js",
+  "main": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ksoliddev/express-h2"
+  },
   "scripts": {
+    "dev" : "sucrase ./lib/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -16,5 +21,14 @@
     "protocol"
   ],
   "author": "Kissema Eduardo Rafael",
-  "license": "ISC"
+  "license": "MIT",
+  "devDependencies": {
+    "sucrase": "^3.15.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "finalhandler": "^1.1.2",
+    "router": "^1.3.5",
+    "url": "^0.11.0"
+  }
 }
