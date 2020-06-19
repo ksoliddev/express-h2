@@ -1,9 +1,9 @@
-# Express-h2
+# express-h2
 
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]
 
-A simple way for use http2 protocol with [express](http://expressjs.com/) framework
+A simple way to use http2 protocol with [express](http://expressjs.com/) framework
 
 * [How to install](#how-to-install)
 * [How to use](#how-to-use)
