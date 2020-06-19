@@ -8,7 +8,7 @@
     "url": "https://github.com/ksoliddev/express-h2"
   },
   "scripts": {
-    "dev" : "sucrase ./lib/index.js",
+    "dev": "sucrase ./lib/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -22,9 +22,6 @@
   ],
   "author": "Kissema Eduardo Rafael",
   "license": "MIT",
-  "devDependencies": {
-    "sucrase": "^3.15.0"
-  },
   "dependencies": {
     "cors": "^2.8.5",
     "finalhandler": "^1.1.2",

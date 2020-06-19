@@ -8,7 +8,6 @@ A simple way for use http2 protocol with [express](http://expressjs.com/) framew
 * [How to install](#how-to-install)
 * [How to use](#how-to-use)
   * [Express Routes](#express-routes)
-  * [Using simple server](#using-simple-server)
   * [Using secure server](#using-secure-server)
 * [Configuration Options](#configuration-options)
 * [License](#license)
@@ -42,17 +41,6 @@ export (app : Application)=>{
 
 Now you can use this *function* to handle your routes with `http2` protocol
 
-### Using simple server
-**Not recommended**
-
-```js
-const http2 = require('express-h2')
-const expressRoutes = require('./routes')
-
-http2.createServer(expressRoutes)
-http2.listen(3333)
-```
-
 ### Using secure server
 You need to pass the [secure options](https://nodejs.org/api/http2.html#http2_http2_createsecureserver_options_onrequesthandler)
 
@@ -66,8 +54,8 @@ const secureOptions = {
   cert: fs.readFileSync('server-cert.pem')
 };
 
-http2.createSecureServer(secureOptions, expressRoutes)
-http2.listen(3443)
+const server = http2.createSecureServer(secureOptions, expressRoutes)
+server.listen(3443)
 ```
 For more informations and `issues` you can see in the [oficial repository](https://github.com/ksoliddev/express-h2)
 
