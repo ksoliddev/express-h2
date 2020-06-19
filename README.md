@@ -30,12 +30,12 @@ Assuming that exists a *express route function* defined (example below)
 
 ```js
 //routes.js
-import { Application } from 'express';
-export (app : Application)=>{
+//const usersRoutes = require('./users.routes');
+export (app)=>{
     app.get('/test', (req, res)=>{
         res.json('test route is working!')
     })
-    app.use('separated_file.routes.js')
+    // app.use('/users/', usersRoutes)
 }
 ```
 
