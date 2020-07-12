@@ -1,6 +1,7 @@
 # express-h2
 
 [![NPM Version][npm-image]][npm-url]
+[![Coverage Status](https://coveralls.io/repos/github/ksoliddev/express-h2/badge.svg?branch=master)](https://coveralls.io/github/ksoliddev/express-h2?branch=master)
 [![NPM Downloads][downloads-image]][downloads-url]
 
 A simple way to use http2 protocol with [express](http://expressjs.com/) framework
