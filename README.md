@@ -3,28 +3,18 @@
 [![NPM Version][npm-image]][npm-url]
 [![Coverage Status](https://coveralls.io/repos/github/ksoliddev/express-h2/badge.svg?branch=master)](https://coveralls.io/github/ksoliddev/express-h2?branch=master)
 [![NPM Downloads][downloads-image]][downloads-url]
+[![NPM](https://nodei.co/npm/express-h2.png)](https://nodei.co/npm/express-h2/)
 
 A simple way to use http2 protocol with [express](http://expressjs.com/) framework
 
-* [How to install](#how-to-install)
-* [How to use](#how-to-use)
+* [Usage](#usage)
   * [Express Routes](#express-routes)
   * [Using secure server](#using-secure-server)
 * [Configuration Options](#configuration-options)
 * [License](#license)
 * [Authors](#authors)
 
-## How to install
-using `npm`
-```bash
-npm i express-h2
-```
-or using `yarn`
-```bash
-yarn add express-h2
-```
-
-## How to use
+## Usage
 
 Assuming that exists a *express route function* defined (example below)
 ### Express Routes
@@ -80,3 +70,7 @@ http2.createSecureServer(secureOptions, expressRoutes, options)
 [downloads-url]: https://npmjs.org/package/express-h2
 [npm-image]: https://img.shields.io/npm/v/express-h2.svg
 [npm-url]: https://npmjs.org/package/express-h2
+
+Sponsored By
+
+![K SOLID](https://i.ibb.co/hdbG7t8/K-SOLID.png)
