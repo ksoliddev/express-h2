@@ -4,7 +4,6 @@
 [![NPM Downloads][downloads-image]][downloads-url]
 [![Coverage Status](https://coveralls.io/repos/github/ksoliddev/express-h2/badge.svg?branch=master)](https://coveralls.io/github/ksoliddev/express-h2?branch=master)
 ![Dependecies](https://img.shields.io/david/ksoliddev/express-h2?style=plastic)
-![Followers](https://img.shields.io/github/followers/kissema?style=social) ![Stars](https://img.shields.io/github/stars/ksoliddev/express-h2?style=social)
 
 A simple way to use http2 protocol with [express](http://expressjs.com/) framework
 
