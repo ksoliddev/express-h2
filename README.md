@@ -1,12 +1,14 @@
 # express-h2
 
 [![NPM Version][npm-image]][npm-url]
-[![Coverage Status](https://coveralls.io/repos/github/ksoliddev/express-h2/badge.svg?branch=master)](https://coveralls.io/github/ksoliddev/express-h2?branch=master)
 [![NPM Downloads][downloads-image]][downloads-url]
-
-[![NPM](https://nodei.co/npm/express-h2.png)](https://nodei.co/npm/express-h2/)
+[![Coverage Status](https://coveralls.io/repos/github/ksoliddev/express-h2/badge.svg?branch=master)](https://coveralls.io/github/ksoliddev/express-h2?branch=master)
+![Dependecies](https://img.shields.io/david/ksoliddev/express-h2?style=plastic)
+![Followers](https://img.shields.io/github/followers/kissema?style=social) ![Stars](https://img.shields.io/github/stars/ksoliddev/express-h2?style=social)
 
 A simple way to use http2 protocol with [express](http://expressjs.com/) framework
+
+[![NPM](https://nodei.co/npm/express-h2.png)](https://nodei.co/npm/express-h2/)
 
 * [Usage](#usage)
   * [Express Routes](#express-routes)
