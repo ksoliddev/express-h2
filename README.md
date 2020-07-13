@@ -1,9 +1,9 @@
 # express-h2
 
 [![NPM Version][npm-image]][npm-url]
-[![NPM Downloads][downloads-image]][downloads-url]
-[![Coverage Status](https://coveralls.io/repos/github/ksoliddev/express-h2/badge.svg?branch=master)](https://coveralls.io/github/ksoliddev/express-h2?branch=master)
-![Dependecies](https://img.shields.io/david/ksoliddev/express-h2?style=plastic)
+![NPM Downloads][downloads-image]
+![Coverage Status][coverage-image]
+![Dependecies][dependencies-image]
 
 A simple way to use http2 protocol with [express](http://expressjs.com/) framework
 
@@ -68,11 +68,12 @@ http2.createSecureServer(secureOptions, expressRoutes, options)
 
 [Kissema Eduardo Rafael](https://github.com/kissema) ([kissema1@gmail.com](mailto:kissema1@gmail.com))
 
-[downloads-image]: https://img.shields.io/npm/dm/express-h2.svg
+[downloads-image]: https://img.shields.io/npm/dt/express-h2.svg
 [downloads-url]: https://npmjs.org/package/express-h2
 [npm-image]: https://img.shields.io/npm/v/express-h2.svg
 [npm-url]: https://npmjs.org/package/express-h2
-
+[dependencies-image]: https://img.shields.io/david/ksoliddev/express-h2.svg
+[coverage-image]: https://coveralls.io/repos/github/ksoliddev/express-h2/badge.svg?branch=master
 Sponsored By
 
 ![K SOLID](https://i.ibb.co/hdbG7t8/K-SOLID.png)
