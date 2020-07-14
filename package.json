@@ -3,14 +3,17 @@
   "version": "1.2.5",
   "description": "express router using the native nodejs http2 protocol",
   "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/ksoliddev/express-h2"
   },
   "scripts": {
     "dev": "sucrase ./lib/index.js",
-    "test": "jest --coverage && coveralls < coverage/lcov.info",
-    "test:publish": "jest --coverage && coveralls < coverage/lcov.info"
+    "test": "jest --coverage",
+    "test:publish": "jest --coverage && coveralls < coverage/lcov.info",
+    "build": "tsc",
+    "prepublish": "tsc"
   },
   "keywords": [
     "express",
@@ -30,8 +33,10 @@
     "url": "^0.11.0"
   },
   "devDependencies": {
+    "@types/jest": "^26.0.4",
     "coveralls": "^3.1.0",
     "jest": "^26.1.0",
-    "rewire": "^5.0.0"
+    "ts-jest": "^26.1.2",
+    "typescript": "^3.9.6"
   }
 }

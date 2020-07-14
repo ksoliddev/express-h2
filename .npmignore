@@ -1,3 +1,7 @@
+src
+samples
+coverage
+.coveralls.yml
 .npmignore
 __tests__
 jest.config.js
