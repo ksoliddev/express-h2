@@ -1,6 +1,6 @@
 {
   "name": "express-h2",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "express router using the native nodejs http2 protocol",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -13,7 +13,7 @@
     "test": "jest --coverage",
     "test:publish": "jest --coverage && coveralls < coverage/lcov.info",
     "build": "tsc",
-    "prepublish" : "npm run build"
+    "prepublish": "npm run build"
   },
   "keywords": [
     "express",
