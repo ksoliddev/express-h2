@@ -74,6 +74,6 @@ http2.createSecureServer(secureOptions, expressRoutes, options)
 [npm-url]: https://npmjs.org/package/express-h2
 [dependencies-image]: https://img.shields.io/david/ksoliddev/express-h2.svg
 [coverage-image]: https://coveralls.io/repos/github/ksoliddev/express-h2/badge.svg?branch=master
-Sponsored By
+**Sponsored By**
 
 ![K SOLID](https://i.ibb.co/hdbG7t8/K-SOLID.png)

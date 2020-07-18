@@ -17,12 +17,15 @@
   },
   "keywords": [
     "express",
+    "expressjs",
+    "server",
     "router",
     "node",
-    "nodejs",
     "h2",
     "http2",
-    "protocol"
+    "https",
+    "protocol",
+    "SSL"
   ],
   "author": "Kissema Eduardo Rafael",
   "license": "MIT",
