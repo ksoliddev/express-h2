@@ -1,7 +1,11 @@
 src
 samples
+.github
 coverage
 .coveralls.yml
 .npmignore
 __tests__
 jest.config.js
+tsconfig.json
+.eslintrc.json
+.eslintignore
