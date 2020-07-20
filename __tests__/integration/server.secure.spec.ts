@@ -1,4 +1,4 @@
-import http2 from '../../src'
+import http2 from '../../lib';
 import {AppController} from '../../src/app';
 import { IncomingMessage, ServerResponse } from 'http';
 import {Socket} from 'net';

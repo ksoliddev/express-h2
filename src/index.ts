@@ -17,4 +17,4 @@ class ExpressHttp2 {
   }
 }
 
-export default new ExpressHttp2();
+export = new ExpressHttp2();
