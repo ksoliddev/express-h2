@@ -5,7 +5,7 @@
 ![Coverage Status][coverage-image]
 ![Dependecies][dependencies-image]
 
-A simple way to use http2 protocol with [express](http://expressjs.com/) framework
+Native http2 framework compatible with [express](http://expressjs.com/) routes
 
 [![NPM](https://nodei.co/npm/express-h2.png)](https://nodei.co/npm/express-h2/)
 
