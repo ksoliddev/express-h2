@@ -31,7 +31,6 @@ jobs:
           node-version: 12
           registry-url: https://registry.npmjs.org
       - name: publish
-        run: npm publish --access public
-        working-directory: express-h2
+        run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_SECRET}}
