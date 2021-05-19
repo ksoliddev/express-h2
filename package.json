@@ -1,6 +1,6 @@
 {
   "name": "express-h2",
-  "version": "1.3.4",
+  "version": "1.3.5",
   "description": "express router using the native nodejs http2 protocol",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
