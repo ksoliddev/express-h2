@@ -12,8 +12,7 @@
     "dev": "sucrase ./lib/index.js",
     "test": "jest --coverage",
     "test:publish": "jest --coverage && coveralls < coverage/lcov.info",
-    "build": "tsc",
-    "prepublish": "npm run build"
+    "build": "tsc"
   },
   "keywords": [
     "express",
